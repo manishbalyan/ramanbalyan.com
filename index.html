@@ -73,8 +73,38 @@
                             2017 Goals? (a) Exceed my sales #’s from 2016; (b) launch an iOS/Android app and break even; (c) find more ways to support the Tech and Cannabis communities.
                         </p>
                         <p>
-                            <a href="#"> Want to chat? Contact me here >></a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"> Want to chat? Contact me here >></a>
                         </p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close cus-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title cus-modal-title" id="myModalLabel">Connect with me</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <!--<label for="name" class="control-label">Name:</label>-->
+                                        <input type="text" class="form-control cus-input" id="name" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--<label for="name" class="control-label">Email:</label>-->
+                                        <input type="email" class="form-control cus-input" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--<label for="message-text" class="control-label">Message:</label>-->
+                                        <textarea class="form-control cus-input" id="message-text" placeholder="Message"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn sub-button">Submit</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 
