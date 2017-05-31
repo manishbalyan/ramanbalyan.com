@@ -12,10 +12,6 @@ CONTENTS :
         3. Image Section
         4. Modal Section
 
-
-
-
-
 =============================================================================================*/
 
 
@@ -24,9 +20,6 @@ CONTENTS :
                                             1. General 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
-body{
-    /*font-family: 'Open Sans', sans-serif;*/
-}
 #main-container-scroller{
     position: fixed;
     top: 0;
@@ -50,6 +43,15 @@ body{
 }
 #main-container{
     min-height: 98.5vh
+}
+input[type="email"], input[type="text"] 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px; 
+    margin-bottom: 10px;
+    padding: 0 20px; 
 }
 
 
@@ -89,13 +91,6 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
-
-
-
-
-
-
-
 
 
 
